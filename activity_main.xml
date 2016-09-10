@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1cc7a0">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout123"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="5dp"
+        android:layout_margin="12dp">
+
+    <!--    <TextView
+            android:id="@+id/text_header_title123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:text="Login Screen"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textSize="20sp" />
+
+-->
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+
+        <!--  	<ImageView
+            android:id="@+id/img_calling"
+            android:layout_width="20dp"
+            	android:layout_height="20dp"
+             android:src="@drawable/phone_icon"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:padding="1dp"
+            />
+
+        -->
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"  >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                 >
+
+
+                <!--     <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp"
+                  android:orientation="vertical"
+                   android:background="#ffffff">
+
+
+                      <Spinner
+                           android:id="@+id/spnacctype"
+                           android:layout_width="match_parent"
+                           android:layout_height="40dp"
+                           android:layout_weight="2"
+                           android:layout_marginTop="2dp"
+                           android:entries="@array/Account_Type"
+                           android:gravity="left|center_vertical"
+
+                           android:textColor="#ffffff"
+                           />
+
+
+                      </LinearLayout>
+                                     -->
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="0dp"
+                    android:layout_height="15dp" />
+
+
+                <EditText
+                    android:id="@+id/login_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:background="#ffffff"
+                    android:layout_marginTop="10dp"
+                    android:typeface="sans"
+                    android:hint="Email"
+                    android:padding="8dp"
+                    android:textSize="20sp"
+                    android:inputType="textEmailAddress"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:singleLine="true"/>
+
+
+
+
+                <EditText
+                    android:id="@+id/login_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:textSize="20sp"
+                    android:background="#ffffff"
+                    android:typeface="sans"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="8dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:singleLine="true"  />
+
+
+                <View
+                    android:id="@+id/view11"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+
+                    <Button
+                        android:id="@+id/btnlogin"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:padding="10dp"
+                        android:text="Login"
+                        android:textColor="#1cc7a0"
+                        android:typeface="sans"
+                        android:textSize="15sp" />
+
+
+                    <View
+                        android:id="@+id/view12"
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+                    <TextView
+                        android:id="@+id/text_reg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:padding="10dp"
+                        android:text="Not a Member? Sign Up now."
+                        android:textColor="#ffffff"
+                        android:typeface="sans"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
